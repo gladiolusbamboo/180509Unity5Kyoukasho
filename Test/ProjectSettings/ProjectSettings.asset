@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 308dc28d606133d47926533a7bae9578
+  productGUID: 9ae72fdaf35588145b33c685e7fb69cc
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -662,9 +662,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 94ce369d-8329-40b2-a86b-e37f231a07ce
-  projectName: Test
-  organizationId: kentaro-hosokawa
+  cloudProjectId: 750aa4f4-e512-48b6-902c-69b1465ddd75
+  projectName: Test (1)
+  organizationId: yuji-koyama
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
