@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: D:/documents/Unity/180509Unity5Kyoukasho/180510Sample/Assets/test.unity
   isLoaded: 1
   isActive: 1
