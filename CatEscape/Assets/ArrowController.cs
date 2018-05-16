@@ -2,18 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ArrowController : MonoBehaviour {
+public class ArrowController : MonoBehaviour
+{
   GameObject player;
 
-	void Start () {
+  void Start()
+  {
     this.player = GameObject.Find("player");
-	}
-	
-	void Update () {
+  }
+
+  void Update()
+  {
     // フレームごとに等速で落下させる
     transform.Translate(0, -0.1f, 0);
     // 画面外に出たらオブジェクトを破棄する
-    if(transform.position.y < -5.0f)
+    if (transform.position.y < -5.0f)
     {
       Destroy(gameObject);
     }
@@ -37,6 +40,5 @@ public class ArrowController : MonoBehaviour {
       GameObject director = GameObject.Find("GameDirector");
       director.GetComponent<GameDirector>().DecreaseHp();
     }
-		
-	}
+  }
 }
