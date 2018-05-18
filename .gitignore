@@ -1,3 +1,5 @@
-*.png
-*.mp3
-*.fbx
+Assets/
+Library/
+Packages/
+Temp/
+.vs/
