@@ -298,7 +298,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BasketController.cs" />
+    <Compile Include="Assets\GameDirector.cs" />
     <Compile Include="Assets\ItemController.cs" />
+    <Compile Include="Assets\ItemGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="C:\Users\gladi\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Styles\Main_Dark.uss" />
